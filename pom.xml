@@ -8,8 +8,8 @@
 	<name>Insecure Bank</name>
 
 	<properties>
-		<org.springframework-version>4.2.3.RELEASE</org.springframework-version>
-		<org.spring-security-version>4.0.3.RELEASE</org.spring-security-version>
+		<org.springframework-version>4.3.20.RELEASE</org.springframework-version>
+		<org.spring-security-version>4.1.4.RELEASE</org.spring-security-version>
 		<org.slf4j-version>1.7.13</org.slf4j-version>
 	</properties>
 
@@ -123,7 +123,7 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>
-			<version>4.1.0.Final</version>
+			<version>4.3.2.Final</version>
 		</dependency>
 		<!-- Database -->
 		<dependency>
@@ -134,7 +134,7 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<version>9.2-1004-jdbc4</version>
+			<version>42.2.5</version>
 		</dependency>
 		<!-- HSQLDB -->
 		<dependency>
